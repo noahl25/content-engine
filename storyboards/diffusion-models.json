@@ -1,0 +1,80 @@
+{
+  "topic": "DIFFUSION",
+  "icon": "Waves",
+  "source_topic": "How diffusion models turn pure noise into images",
+  "assets": [
+    {"type": "logo", "slug": "openai"},
+    {"type": "logo", "slug": "google"},
+    {"type": "logo", "slug": "adobe"},
+    {"type": "logo", "slug": "huggingface"}
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "You think AI generates images from nothing. It doesn't. It starts with pure random static — and erases it.",
+      "props": {
+        "title": "DIFFUSION",
+        "subtitle": "AI doesn't create — it erases",
+        "icon": "Waves"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "Every output starts as pure noise. The model runs up to fifty steps — each time predicting and removing noise — until an image emerges.",
+      "props": {
+        "component": "DenoiseStrip",
+        "fallbackText": "An image starts as pure random noise and the model gradually removes it step by step until a clear picture appears."
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "More than twelve billion images have been made this way. Every single one started as meaningless random static.",
+      "props": {
+        "text": "12.5 billion images. All started as noise.",
+        "highlight": "noise"
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "The network predicts exactly what noise is in the input, subtracts it, and repeats. Thirty-four iterations — that's all it takes to render a single image.",
+      "props": {
+        "elements": [
+          {"kind": "node", "x": 22, "y": 52, "w": 18, "icon": "Binary", "label": "noisy", "accent": false},
+          {"kind": "edge", "x1": 31, "y1": 52, "x2": 42, "y2": 52, "flow": true, "accent": true},
+          {"kind": "node", "x": 52, "y": 52, "w": 20, "icon": "Brain", "label": "U-Net", "accent": true},
+          {"kind": "edge", "x1": 62, "y1": 52, "x2": 71, "y2": 52, "flow": true, "accent": true},
+          {"kind": "node", "x": 80, "y": 52, "w": 18, "icon": "Image", "label": "clean", "accent": false},
+          {"kind": "node", "x": 52, "y": 28, "w": 18, "icon": "RefreshCw", "label": "×34 steps", "accent": false},
+          {"kind": "edge", "x1": 52, "y1": 37, "x2": 52, "y2": 42, "flow": false, "accent": false}
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "Your text prompt guides each subtraction. The model isn't painting — it's excavating a structure that was encoded in the noise.",
+      "props": {
+        "component": "DiffusionUI",
+        "fallbackText": "DALL-E 3 interface: a text prompt and a generated city image appearing from the denoising process."
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "DALL-E, Gemini, Adobe Firefly, Stable Diffusion — all diffusion. And now this same denoising architecture is expanding beyond images into text and video.",
+      "props": {
+        "component": "ModelGrid",
+        "fallbackText": "Four major AI image generators all built on diffusion: OpenAI DALL-E, Google Imagen, Adobe Firefly, and Stable Diffusion from HuggingFace."
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "The technique that made image AI might remake all of AI. Follow for one concept every day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Your AI image generator never once learned to 'draw.'\n\nIt learned to remove noise. Twelve billion images — from photorealistic portraits to impossible landscapes — all born from random static, erased step by step.\n\nThe wild part? This same denoising trick is now replacing language models, running 5x faster than traditional AI.\n\nSave this and share with someone who thinks AI is magic.",
+  "hashtags": ["aiart", "machinelearning", "stablediffusion", "aiexplained", "techtok", "artificialintelligence", "dalle", "learnontiktok"]
+}

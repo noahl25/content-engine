@@ -1,0 +1,9 @@
+# byte.sized.2 cron (UTC). Render takes ~15 min, so start well before post time.
+#
+# WEEKLY external trend analysis (PhysicsCreations) -> memory/TRENDS.md  (safe; no posting):
+# 0 13 * * 1 /home/claude/claude/trading/.venv/bin/python /home/claude/claude/content-engine/scripts/trends.py
+#
+# DAILY content cycle (build only, NO post):
+# 0 15 * * * /bin/bash /home/claude/claude/content-engine/daily_run.sh
+# DAILY content cycle ARMED (also auto-posts — only after byte.sized.2 is logged into the stealth profile):
+# 0 15 * * * ENABLE_POSTING=1 /bin/bash /home/claude/claude/content-engine/daily_run.sh

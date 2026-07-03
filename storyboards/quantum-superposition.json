@@ -1,0 +1,78 @@
+{
+  "topic": "QUANTUM LEAP",
+  "icon": "Atom",
+  "source_topic": "How quantum computers use superposition to compute differently",
+  "assets": [
+    {"type": "logo", "slug": "ibm"},
+    {"type": "logo", "slug": "google"}
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Google's quantum chip solved a problem in two hours. The world's fastest supercomputer would need three-point-two years. Here's why.",
+      "props": {
+        "title": "QUANTUM",
+        "subtitle": "why supercomputers can't compete",
+        "icon": "Atom"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "A classical bit is heads or tails, never both. A qubit exists in both states simultaneously, until you measure it. That's superposition.",
+      "props": {
+        "component": "ClassicalVsQubit",
+        "fallbackText": "Classical bits are 0 OR 1. Qubits are 0 AND 1 simultaneously — until measured."
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "IBM's Quantum Composer: the H gate creates superposition. CNOT entangles two qubits. From here, the circuit explores every computational path at once.",
+      "props": {
+        "component": "IBMQuantumCircuit",
+        "fallbackText": "IBM Quantum Composer circuit: H gate (superposition) + CNOT gate (entanglement) + measurement."
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "The key is interference. Quantum circuits are designed so wrong computational paths cancel each other out. Only the correct answer survives to be measured.",
+      "props": {
+        "elements": [
+          {"kind": "node", "x": 18, "y": 47, "w": 22, "label": "ALL PATHS", "icon": "Atom"},
+          {"kind": "node", "x": 52, "y": 29, "w": 20, "label": "WRONG"},
+          {"kind": "node", "x": 52, "y": 62, "w": 20, "label": "CORRECT", "icon": "Check", "accent": true},
+          {"kind": "node", "x": 82, "y": 47, "w": 20, "label": "ANSWER", "icon": "Zap", "accent": true},
+          {"kind": "edge", "x1": 18, "y1": 47, "x2": 52, "y2": 29},
+          {"kind": "edge", "x1": 18, "y1": 47, "x2": 52, "y2": 62, "accent": true, "flow": true},
+          {"kind": "edge", "x1": 52, "y1": 62, "x2": 82, "y2": 47, "accent": true, "flow": true}
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "Google's Willow chip ran a physics simulation thirteen thousand times faster than the world's fastest supercomputer. Verified in twenty twenty-five, not theoretical.",
+      "props": {
+        "component": "GoogleWillowRace",
+        "fallbackText": "Google Willow quantum chip: 13,000× faster than Frontier supercomputer. Verified 2025."
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "Add one qubit, double your states. At three hundred qubits, you're simultaneously holding more states than atoms in the observable universe.",
+      "props": {
+        "value": "2^300",
+        "label": "simultaneous states in a 300-qubit system — more than atoms in the universe"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "Quantum computers won't replace your laptop. They target a specific problem class — and that class is growing. Follow for one concept a day.",
+      "props": {
+        "cta": "MIND BLOWN?",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Your computer checks one answer at a time. A quantum chip checked all of them — and still finished in 2 hours.\n\nSuperposition lets qubits be in every state simultaneously. But the real trick is interference — wrong answers cancel each other out, the right one amplifies and survives.\n\n300 qubits holds more states than atoms in the observable universe.\n\nSave this — quantum just went mainstream.",
+  "hashtags": ["quantumcomputing", "physics", "computerscience", "ai", "technology", "sciencefacts", "techexplained", "stem"]
+}

@@ -1,0 +1,94 @@
+{
+  "topic": "DNS EXPLAINED",
+  "icon": "Globe",
+  "source_topic": "How DNS works (turning a domain name into an IP address)",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Before your browser loads anything, it solves a puzzle. You type a name — but computers need numbers.",
+      "props": {
+        "title": "HOW DNS",
+        "subtitle": "the 4-step handshake hiding behind every URL",
+        "icon": "Globe"
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "Every domain name must be translated into an IP address. Your browser cannot skip this step.",
+      "props": {
+        "text": "google.com means nothing to a server. It needs a number.",
+        "highlight": "number"
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "Your browser asks a resolver. That resolver asks one of 13 root servers on Earth. The root points to the TLD server, the TLD to the authoritative server, which returns the IP.",
+      "props": {
+        "elements": [
+          {"kind":"label","x":50,"y":23,"text":"4 Hops, ~20ms","size":"l","accent":true},
+          {"kind":"node","x":16,"y":50,"w":13,"label":"Browser","icon":"Globe","accent":false},
+          {"kind":"node","x":31,"y":50,"w":13,"label":"Resolver","icon":"Server","accent":false},
+          {"kind":"node","x":47,"y":50,"w":14,"label":"Root × 13","icon":"Database","accent":true},
+          {"kind":"node","x":63,"y":50,"w":13,"label":".com TLD","icon":"Network","accent":false},
+          {"kind":"node","x":79,"y":50,"w":13,"label":"Auth NS","icon":"HardDrive","accent":false},
+          {"kind":"edge","x1":16,"y1":50,"x2":31,"y2":50,"accent":false,"flow":true},
+          {"kind":"edge","x1":31,"y1":50,"x2":47,"y2":50,"accent":false,"flow":true},
+          {"kind":"edge","x1":47,"y1":50,"x2":63,"y2":50,"accent":false,"flow":true},
+          {"kind":"edge","x1":63,"y1":50,"x2":79,"y2":50,"accent":false,"flow":true},
+          {"kind":"edge","x1":79,"y1":64,"x2":16,"y2":64,"accent":true,"flow":false},
+          {"kind":"label","x":48,"y":70,"text":"IP returned","size":"s","accent":true}
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "That four-hop chain completes in just 20 milliseconds. But when DNS fails, everything fails. A DNS outage this June knocked out banking apps and government services for hours.",
+      "props": {
+        "value": "20ms",
+        "label": "to resolve any domain on Earth — every single time"
+      }
+    },
+    {
+      "type": "layers",
+      "narration": "The system is hierarchical. Root servers at the top, TLD servers below for .com and .org, then the authoritative nameserver — the one with your site's IP.",
+      "props": {
+        "title": "The Hierarchy",
+        "layers": [
+          {"label": "Your Domain", "icon": "Globe"},
+          {"label": "Auth NS", "icon": "Server"},
+          {"label": ".com TLD", "icon": "Network"},
+          {"label": "Root Server", "icon": "Database"}
+        ]
+      }
+    },
+    {
+      "type": "compare",
+      "narration": "Caching makes it fast. Your OS and resolver remember recent lookups. A cached answer skips all four hops — under one millisecond.",
+      "props": {
+        "left": {
+          "title": "No Cache",
+          "icon": "RefreshCw",
+          "tone": "heavy",
+          "blocks": ["4 servers queried", "20–120ms", "full lookup"]
+        },
+        "right": {
+          "title": "Cached",
+          "icon": "Zap",
+          "tone": "light",
+          "blocks": ["answered locally", "under 1ms", "zero hops"]
+        }
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "DNS is invisible until it breaks — then nothing loads. Follow for one concept like this every day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Your browser can't find google.com on its own — every time you visit, it asks a chain of 4 servers in the right order before anything loads 🔗\n\nA DNS failure this June took down banking apps and government services for hours. One broken file. Entire internet sections gone.\n\nThe full 4-hop breakdown is in the reel 👆\n\nSave this — DNS is one of those things every engineer should understand cold.\n\nFollow @yourhandle for one concept a day.\n\n[DNS, Networking, SystemDesign, ComputerScience, Backend]",
+  "hashtags": ["dns", "systemdesign", "networking", "computerscience", "backend", "coding", "techexplained", "learntech"]
+}

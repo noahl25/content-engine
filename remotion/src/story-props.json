@@ -1,0 +1,1053 @@
+{
+  "topic": "CHINESE ROOM",
+  "icon": "Brain",
+  "audioFile": "narration.mp3",
+  "audioDurationSec": 68.545,
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.163
+    },
+    {
+      "word": "45-year-old",
+      "start": 0.221,
+      "end": 1.08
+    },
+    {
+      "word": "trap",
+      "start": 1.126,
+      "end": 1.393
+    },
+    {
+      "word": "AI",
+      "start": 1.474,
+      "end": 1.881
+    },
+    {
+      "word": "can't",
+      "start": 1.95,
+      "end": 2.229
+    },
+    {
+      "word": "escape.",
+      "start": 2.287,
+      "end": 2.914
+    },
+    {
+      "word": "You",
+      "start": 3.193,
+      "end": 3.32
+    },
+    {
+      "word": "just",
+      "start": 3.39,
+      "end": 3.553
+    },
+    {
+      "word": "had",
+      "start": 3.587,
+      "end": 3.692
+    },
+    {
+      "word": "a",
+      "start": 3.727,
+      "end": 3.75
+    },
+    {
+      "word": "conversation",
+      "start": 3.808,
+      "end": 4.365
+    },
+    {
+      "word": "with",
+      "start": 4.412,
+      "end": 4.54
+    },
+    {
+      "word": "AI",
+      "start": 4.598,
+      "end": 4.981
+    },
+    {
+      "word": "\u2014",
+      "start": 5.155,
+      "end": 5.387
+    },
+    {
+      "word": "it",
+      "start": 5.445,
+      "end": 5.573
+    },
+    {
+      "word": "answered",
+      "start": 5.619,
+      "end": 5.944
+    },
+    {
+      "word": "perfectly.",
+      "start": 5.991,
+      "end": 6.745
+    },
+    {
+      "word": "But",
+      "start": 7.187,
+      "end": 7.338
+    },
+    {
+      "word": "there's",
+      "start": 7.361,
+      "end": 7.57
+    },
+    {
+      "word": "a",
+      "start": 7.593,
+      "end": 7.616
+    },
+    {
+      "word": "45-year-old",
+      "start": 7.686,
+      "end": 8.615
+    },
+    {
+      "word": "question",
+      "start": 8.673,
+      "end": 9.067
+    },
+    {
+      "word": "it",
+      "start": 9.125,
+      "end": 9.207
+    },
+    {
+      "word": "still",
+      "start": 9.253,
+      "end": 9.474
+    },
+    {
+      "word": "can't",
+      "start": 9.543,
+      "end": 9.764
+    },
+    {
+      "word": "escape:",
+      "start": 9.822,
+      "end": 10.484
+    },
+    {
+      "word": "does",
+      "start": 10.995,
+      "end": 11.157
+    },
+    {
+      "word": "it",
+      "start": 11.192,
+      "end": 11.262
+    },
+    {
+      "word": "actually",
+      "start": 11.308,
+      "end": 11.633
+    },
+    {
+      "word": "understand",
+      "start": 11.691,
+      "end": 12.214
+    },
+    {
+      "word": "a",
+      "start": 12.272,
+      "end": 12.307
+    },
+    {
+      "word": "single",
+      "start": 12.365,
+      "end": 12.666
+    },
+    {
+      "word": "word?",
+      "start": 12.701,
+      "end": 13.235
+    },
+    {
+      "word": "In",
+      "start": 13.746,
+      "end": 13.897
+    },
+    {
+      "word": "1980,",
+      "start": 13.955,
+      "end": 14.791
+    },
+    {
+      "word": "John",
+      "start": 14.907,
+      "end": 15.139
+    },
+    {
+      "word": "Searle",
+      "start": 15.221,
+      "end": 15.534
+    },
+    {
+      "word": "imagined",
+      "start": 15.557,
+      "end": 15.952
+    },
+    {
+      "word": "a",
+      "start": 15.987,
+      "end": 16.01
+    },
+    {
+      "word": "room.",
+      "start": 16.068,
+      "end": 16.556
+    },
+    {
+      "word": "Inside,",
+      "start": 16.997,
+      "end": 17.6
+    },
+    {
+      "word": "a",
+      "start": 17.624,
+      "end": 17.67
+    },
+    {
+      "word": "person",
+      "start": 17.74,
+      "end": 18.053
+    },
+    {
+      "word": "uses",
+      "start": 18.123,
+      "end": 18.378
+    },
+    {
+      "word": "a",
+      "start": 18.425,
+      "end": 18.448
+    },
+    {
+      "word": "rulebook",
+      "start": 18.506,
+      "end": 18.901
+    },
+    {
+      "word": "to",
+      "start": 18.959,
+      "end": 19.04
+    },
+    {
+      "word": "answer",
+      "start": 19.121,
+      "end": 19.412
+    },
+    {
+      "word": "Chinese",
+      "start": 19.47,
+      "end": 19.841
+    },
+    {
+      "word": "questions",
+      "start": 19.876,
+      "end": 20.271
+    },
+    {
+      "word": "perfectly",
+      "start": 20.329,
+      "end": 20.84
+    },
+    {
+      "word": "\u2014",
+      "start": 21.049,
+      "end": 21.118
+    },
+    {
+      "word": "without",
+      "start": 21.153,
+      "end": 21.443
+    },
+    {
+      "word": "knowing",
+      "start": 21.478,
+      "end": 21.722
+    },
+    {
+      "word": "a",
+      "start": 21.768,
+      "end": 21.792
+    },
+    {
+      "word": "single",
+      "start": 21.85,
+      "end": 22.163
+    },
+    {
+      "word": "word",
+      "start": 22.198,
+      "end": 22.43
+    },
+    {
+      "word": "of",
+      "start": 22.477,
+      "end": 22.523
+    },
+    {
+      "word": "Chinese.",
+      "start": 22.569,
+      "end": 23.347
+    },
+    {
+      "word": "Here's",
+      "start": 23.858,
+      "end": 24.125
+    },
+    {
+      "word": "the",
+      "start": 24.16,
+      "end": 24.23
+    },
+    {
+      "word": "key:",
+      "start": 24.276,
+      "end": 24.741
+    },
+    {
+      "word": "following",
+      "start": 24.95,
+      "end": 25.356
+    },
+    {
+      "word": "rules",
+      "start": 25.414,
+      "end": 25.704
+    },
+    {
+      "word": "is",
+      "start": 25.774,
+      "end": 25.878
+    },
+    {
+      "word": "not",
+      "start": 25.936,
+      "end": 26.064
+    },
+    {
+      "word": "the",
+      "start": 26.099,
+      "end": 26.169
+    },
+    {
+      "word": "same",
+      "start": 26.227,
+      "end": 26.447
+    },
+    {
+      "word": "as",
+      "start": 26.482,
+      "end": 26.552
+    },
+    {
+      "word": "understanding.",
+      "start": 26.61,
+      "end": 27.446
+    },
+    {
+      "word": "Syntax",
+      "start": 27.887,
+      "end": 28.502
+    },
+    {
+      "word": "\u2014",
+      "start": 28.549,
+      "end": 28.595
+    },
+    {
+      "word": "the",
+      "start": 28.641,
+      "end": 28.746
+    },
+    {
+      "word": "pattern",
+      "start": 28.804,
+      "end": 29.176
+    },
+    {
+      "word": "\u2014",
+      "start": 29.326,
+      "end": 29.443
+    },
+    {
+      "word": "is",
+      "start": 29.524,
+      "end": 29.675
+    },
+    {
+      "word": "not",
+      "start": 29.733,
+      "end": 29.849
+    },
+    {
+      "word": "semantics",
+      "start": 29.907,
+      "end": 30.546
+    },
+    {
+      "word": "\u2014",
+      "start": 30.673,
+      "end": 30.778
+    },
+    {
+      "word": "the",
+      "start": 30.848,
+      "end": 30.952
+    },
+    {
+      "word": "meaning.",
+      "start": 31.01,
+      "end": 31.556
+    },
+    {
+      "word": "Computers",
+      "start": 31.997,
+      "end": 32.543
+    },
+    {
+      "word": "ace",
+      "start": 32.624,
+      "end": 32.868
+    },
+    {
+      "word": "syntax.",
+      "start": 32.937,
+      "end": 33.692
+    },
+    {
+      "word": "But",
+      "start": 33.866,
+      "end": 34.029
+    },
+    {
+      "word": "semantics?",
+      "start": 34.075,
+      "end": 34.83
+    },
+    {
+      "word": "That's",
+      "start": 35.004,
+      "end": 35.271
+    },
+    {
+      "word": "the",
+      "start": 35.317,
+      "end": 35.387
+    },
+    {
+      "word": "gap.",
+      "start": 35.445,
+      "end": 35.921
+    },
+    {
+      "word": "The",
+      "start": 36.432,
+      "end": 36.548
+    },
+    {
+      "word": "strongest",
+      "start": 36.595,
+      "end": 37.024
+    },
+    {
+      "word": "counter:",
+      "start": 37.082,
+      "end": 37.616
+    },
+    {
+      "word": "maybe",
+      "start": 37.79,
+      "end": 38.023
+    },
+    {
+      "word": "the",
+      "start": 38.057,
+      "end": 38.127
+    },
+    {
+      "word": "SYSTEM",
+      "start": 38.173,
+      "end": 38.487
+    },
+    {
+      "word": "understands,",
+      "start": 38.545,
+      "end": 39.346
+    },
+    {
+      "word": "even",
+      "start": 39.52,
+      "end": 39.752
+    },
+    {
+      "word": "if",
+      "start": 39.787,
+      "end": 39.857
+    },
+    {
+      "word": "the",
+      "start": 39.903,
+      "end": 39.973
+    },
+    {
+      "word": "parts",
+      "start": 40.019,
+      "end": 40.298
+    },
+    {
+      "word": "don't.",
+      "start": 40.356,
+      "end": 40.832
+    },
+    {
+      "word": "Your",
+      "start": 41.273,
+      "end": 41.482
+    },
+    {
+      "word": "neurons",
+      "start": 41.552,
+      "end": 41.958
+    },
+    {
+      "word": "don't",
+      "start": 42.016,
+      "end": 42.225
+    },
+    {
+      "word": "understand",
+      "start": 42.272,
+      "end": 42.725
+    },
+    {
+      "word": "English",
+      "start": 42.806,
+      "end": 43.143
+    },
+    {
+      "word": "\u2014",
+      "start": 43.259,
+      "end": 43.363
+    },
+    {
+      "word": "but",
+      "start": 43.607,
+      "end": 43.758
+    },
+    {
+      "word": "you",
+      "start": 43.804,
+      "end": 43.886
+    },
+    {
+      "word": "do.",
+      "start": 43.955,
+      "end": 44.35
+    },
+    {
+      "word": "Could",
+      "start": 44.954,
+      "end": 45.163
+    },
+    {
+      "word": "AI",
+      "start": 45.232,
+      "end": 45.569
+    },
+    {
+      "word": "be",
+      "start": 45.662,
+      "end": 45.755
+    },
+    {
+      "word": "the",
+      "start": 45.79,
+      "end": 45.86
+    },
+    {
+      "word": "same?",
+      "start": 45.906,
+      "end": 46.359
+    },
+    {
+      "word": "Now",
+      "start": 46.603,
+      "end": 46.765
+    },
+    {
+      "word": "researchers",
+      "start": 46.835,
+      "end": 47.357
+    },
+    {
+      "word": "are",
+      "start": 47.392,
+      "end": 47.485
+    },
+    {
+      "word": "literally",
+      "start": 47.52,
+      "end": 47.868
+    },
+    {
+      "word": "looking",
+      "start": 47.926,
+      "end": 48.182
+    },
+    {
+      "word": "inside",
+      "start": 48.24,
+      "end": 48.692
+    },
+    {
+      "word": "AI.",
+      "start": 48.739,
+      "end": 49.377
+    },
+    {
+      "word": "In",
+      "start": 49.76,
+      "end": 49.9
+    },
+    {
+      "word": "2025,",
+      "start": 49.958,
+      "end": 51.014
+    },
+    {
+      "word": "Anthropic",
+      "start": 51.13,
+      "end": 51.711
+    },
+    {
+      "word": "traced",
+      "start": 51.781,
+      "end": 52.106
+    },
+    {
+      "word": "actual",
+      "start": 52.164,
+      "end": 52.558
+    },
+    {
+      "word": "reasoning",
+      "start": 52.651,
+      "end": 53.058
+    },
+    {
+      "word": "circuits",
+      "start": 53.116,
+      "end": 53.557
+    },
+    {
+      "word": "inside",
+      "start": 53.615,
+      "end": 54.068
+    },
+    {
+      "word": "Claude",
+      "start": 54.114,
+      "end": 54.544
+    },
+    {
+      "word": "\u2014",
+      "start": 54.613,
+      "end": 54.683
+    },
+    {
+      "word": "structures",
+      "start": 55.066,
+      "end": 55.565
+    },
+    {
+      "word": "that",
+      "start": 55.6,
+      "end": 55.716
+    },
+    {
+      "word": "encode",
+      "start": 55.763,
+      "end": 56.239
+    },
+    {
+      "word": "meaning,",
+      "start": 56.285,
+      "end": 56.773
+    },
+    {
+      "word": "not",
+      "start": 56.947,
+      "end": 57.11
+    },
+    {
+      "word": "just",
+      "start": 57.156,
+      "end": 57.33
+    },
+    {
+      "word": "shuffle",
+      "start": 57.365,
+      "end": 57.702
+    },
+    {
+      "word": "symbols.",
+      "start": 57.725,
+      "end": 58.34
+    },
+    {
+      "word": "The",
+      "start": 58.781,
+      "end": 58.898
+    },
+    {
+      "word": "Chinese",
+      "start": 58.944,
+      "end": 59.374
+    },
+    {
+      "word": "Room",
+      "start": 59.42,
+      "end": 59.606
+    },
+    {
+      "word": "has",
+      "start": 59.664,
+      "end": 59.791
+    },
+    {
+      "word": "no",
+      "start": 59.873,
+      "end": 60.0
+    },
+    {
+      "word": "clean",
+      "start": 60.07,
+      "end": 60.337
+    },
+    {
+      "word": "answer",
+      "start": 60.407,
+      "end": 60.813
+    },
+    {
+      "word": "\u2014",
+      "start": 60.894,
+      "end": 60.988
+    },
+    {
+      "word": "yet.",
+      "start": 61.069,
+      "end": 61.522
+    },
+    {
+      "word": "But",
+      "start": 62.033,
+      "end": 62.183
+    },
+    {
+      "word": "we're",
+      "start": 62.218,
+      "end": 62.358
+    },
+    {
+      "word": "cracking",
+      "start": 62.381,
+      "end": 62.683
+    },
+    {
+      "word": "it",
+      "start": 62.729,
+      "end": 62.787
+    },
+    {
+      "word": "open,",
+      "start": 62.834,
+      "end": 63.252
+    },
+    {
+      "word": "and",
+      "start": 63.321,
+      "end": 63.472
+    },
+    {
+      "word": "what's",
+      "start": 63.519,
+      "end": 63.716
+    },
+    {
+      "word": "inside",
+      "start": 63.762,
+      "end": 64.25
+    },
+    {
+      "word": "might",
+      "start": 64.297,
+      "end": 64.482
+    },
+    {
+      "word": "redefine",
+      "start": 64.54,
+      "end": 65.074
+    },
+    {
+      "word": "mind",
+      "start": 65.121,
+      "end": 65.353
+    },
+    {
+      "word": "itself.",
+      "start": 65.411,
+      "end": 66.038
+    },
+    {
+      "word": "Follow",
+      "start": 66.479,
+      "end": 66.781
+    },
+    {
+      "word": "for",
+      "start": 66.839,
+      "end": 66.944
+    },
+    {
+      "word": "one",
+      "start": 67.013,
+      "end": 67.187
+    },
+    {
+      "word": "concept",
+      "start": 67.245,
+      "end": 67.687
+    },
+    {
+      "word": "a",
+      "start": 67.733,
+      "end": 67.756
+    },
+    {
+      "word": "day.",
+      "start": 67.814,
+      "end": 68.499
+    }
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "props": {
+        "title": "CHINESE ROOM",
+        "subtitle": "can AI truly understand?",
+        "icon": "Brain"
+      },
+      "durationInFrames": 87
+    },
+    {
+      "type": "custom",
+      "props": {
+        "component": "ChatUI",
+        "fallbackText": "A chat with AI that answers every question perfectly \u2014 but does it understand?"
+      },
+      "durationInFrames": 310
+    },
+    {
+      "type": "custom",
+      "props": {
+        "component": "ChineseRoom",
+        "fallbackText": "A person inside a room translates Chinese using rules, with zero understanding of the language."
+      },
+      "durationInFrames": 303
+    },
+    {
+      "type": "canvas",
+      "props": {
+        "elements": [
+          {
+            "kind": "label",
+            "x": 24,
+            "y": 22,
+            "text": "SYNTAX",
+            "size": "m",
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 24,
+            "y": 37,
+            "w": 24,
+            "label": "PATTERN",
+            "icon": "Binary",
+            "accent": false
+          },
+          {
+            "kind": "label",
+            "x": 50,
+            "y": 37,
+            "text": "\u2260",
+            "size": "xl",
+            "accent": true
+          },
+          {
+            "kind": "label",
+            "x": 74,
+            "y": 22,
+            "text": "SEMANTICS",
+            "size": "m",
+            "accent": true
+          },
+          {
+            "kind": "node",
+            "x": 74,
+            "y": 37,
+            "w": 24,
+            "label": "MEANING",
+            "icon": "Brain",
+            "accent": true
+          },
+          {
+            "kind": "edge",
+            "x1": 24,
+            "y1": 45,
+            "x2": 24,
+            "y2": 52
+          },
+          {
+            "kind": "edge",
+            "x1": 74,
+            "y1": 45,
+            "x2": 74,
+            "y2": 52
+          },
+          {
+            "kind": "node",
+            "x": 24,
+            "y": 60,
+            "w": 24,
+            "label": "COMPUTED",
+            "icon": "Check",
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 74,
+            "y": 60,
+            "w": 24,
+            "label": "UNKNOWN?",
+            "icon": "HelpCircle",
+            "accent": true
+          }
+        ]
+      },
+      "durationInFrames": 378
+    },
+    {
+      "type": "canvas",
+      "props": {
+        "elements": [
+          {
+            "kind": "label",
+            "x": 23,
+            "y": 23,
+            "text": "BIOLOGY",
+            "size": "s",
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 23,
+            "y": 37,
+            "w": 23,
+            "label": "NEURON",
+            "icon": "Activity",
+            "accent": false
+          },
+          {
+            "kind": "edge",
+            "x1": 23,
+            "y1": 45,
+            "x2": 23,
+            "y2": 54,
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 23,
+            "y": 62,
+            "w": 23,
+            "label": "YOU",
+            "icon": "User",
+            "accent": false
+          },
+          {
+            "kind": "label",
+            "x": 50,
+            "y": 50,
+            "text": "=?",
+            "size": "xl",
+            "accent": true
+          },
+          {
+            "kind": "label",
+            "x": 77,
+            "y": 23,
+            "text": "AI",
+            "size": "s",
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 77,
+            "y": 37,
+            "w": 23,
+            "label": "RULES",
+            "icon": "BookOpen",
+            "accent": false
+          },
+          {
+            "kind": "edge",
+            "x1": 77,
+            "y1": 45,
+            "x2": 77,
+            "y2": 54,
+            "accent": false
+          },
+          {
+            "kind": "node",
+            "x": 77,
+            "y": 62,
+            "w": 23,
+            "label": "AI",
+            "icon": "Cpu",
+            "accent": true
+          }
+        ]
+      },
+      "durationInFrames": 313
+    },
+    {
+      "type": "custom",
+      "props": {
+        "component": "InterpretabilityDash",
+        "fallbackText": "Anthropic's circuit-tracing research reveals actual reasoning structures inside Claude."
+      },
+      "durationInFrames": 359
+    },
+    {
+      "type": "outro",
+      "props": {
+        "cta": "FOLLOW",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      },
+      "durationInFrames": 306
+    }
+  ]
+}

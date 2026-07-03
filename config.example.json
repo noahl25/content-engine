@@ -1,0 +1,42 @@
+{
+  "channel": {
+    "niche": "Science + tech/AI explainers",
+    "handle": "your_ig_handle",
+    "voice": "elevenlabs",
+    "voice_id": "YOUR_ELEVENLABS_VOICE_ID",
+    "post_mode": "manual",
+    "post_time_utc": "16:00",
+    "video": { "width": 1080, "height": 1920, "fps": 30, "target_seconds": [45, 60], "speed": 1.25 }
+  },
+  "visuals": {
+    "primary": "remotion",
+    "design_skill": "impeccable",
+    "icons": "lucide-react",
+    "stock": ["pexels", "pixabay"],
+    "ai_images": true,
+    "ai_image_model": "gemini-2.5-flash-image",
+    "default_mode": "graphics",
+    "photo_art_style": "bw",
+    "top_bar": false,
+    "progress_bar": true
+  },
+  "keys": {
+    "elevenlabs": "~/keys/elevenlabs.txt",
+    "pexels": "~/keys/pexels.txt",
+    "pixabay": "~/keys/pixabay.txt",
+    "gemini": "~/keys/gemini.txt"
+  },
+  "telegram": {
+    "token": "~/keys/telegram_bot_token.txt",
+    "chat_id": "~/keys/telegram_chat_id.txt"
+  },
+  "accounts": {
+    "posting": { "handle": "your_ig_handle", "cookies": "~/keys/ig_posting_cookies.txt" },
+    "trends": { "handle": "your_scanner_ig_handle", "cookies": "~/keys/ig_trends_cookies.txt" }
+  },
+  "trends": {
+    "hashtags": ["yourniche", "relatedtag", "anothertag"],
+    "per_tag": 12,
+    "top_n": 25
+  }
+}

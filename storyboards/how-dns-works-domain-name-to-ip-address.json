@@ -1,0 +1,121 @@
+{
+  "topic": "HOW DNS WORKS",
+  "icon": "Globe",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Every time you type a website, your device has no idea where to go. DNS is the internet's phone book \u2014 and it works in milliseconds.",
+      "props": {
+        "title": "DNS",
+        "subtitle": "How does google.com find you?",
+        "icon": "Globe"
+      }
+    },
+    {
+      "type": "compare",
+      "narration": "Computers talk in numbers \u2014 IP addresses. Humans talk in names. DNS bridges that gap.",
+      "props": {
+        "left": {
+          "title": "You Type",
+          "icon": "Smartphone",
+          "tone": "heavy",
+          "blocks": [
+            "google.com",
+            "amazon.com",
+            "github.com",
+            "human-readable"
+          ]
+        },
+        "right": {
+          "title": "Computer Needs",
+          "icon": "Cpu",
+          "tone": "light",
+          "blocks": [
+            "142.250.80.46",
+            "205.251.242.103",
+            "140.82.121.4",
+            "IP address"
+          ]
+        }
+      }
+    },
+    {
+      "type": "nodes",
+      "narration": "Your query travels through a chain \u2014 first your router's cache, then your ISP, then a recursive resolver hunting for the answer.",
+      "props": {
+        "hub": {
+          "label": "Your Device",
+          "icon": "Smartphone"
+        },
+        "nodes": [
+          {
+            "label": "Local Cache",
+            "icon": "MemoryStick"
+          },
+          {
+            "label": "ISP Resolver",
+            "icon": "Router"
+          },
+          {
+            "label": "Root Server",
+            "icon": "Globe"
+          },
+          {
+            "label": "Name Server",
+            "icon": "Database"
+          }
+        ]
+      }
+    },
+    {
+      "type": "layers",
+      "narration": "DNS is hierarchical. Root servers know who handles .com. .com servers know who handles google. Google's server knows the exact IP.",
+      "props": {
+        "title": "DNS Hierarchy",
+        "layers": [
+          {
+            "label": "IP Address",
+            "icon": "Cpu"
+          },
+          {
+            "label": "google.com",
+            "icon": "Server"
+          },
+          {
+            "label": ".com Zone",
+            "icon": "Database"
+          },
+          {
+            "label": "Root Server",
+            "icon": "Globe"
+          }
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "The entire lookup \u2014 four servers, four hops \u2014 happens in under 50 milliseconds. You never even notice.",
+      "props": {
+        "value": "~50ms",
+        "label": "full DNS lookup, start to finish"
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "And that answer gets cached so next time it's instant \u2014 DNS is why the internet feels fast.",
+      "props": {
+        "value": "1 trillion",
+        "label": "DNS queries resolved every day"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "DNS: the silent translator that runs every single time you go online. Follow for one concept a day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@scienceinreels",
+        "icon": "Plus"
+      }
+    }
+  ]
+}

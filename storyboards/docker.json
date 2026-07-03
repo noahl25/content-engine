@@ -1,0 +1,54 @@
+{
+  "topic": "DOCKER",
+  "icon": "Container",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Docker, explained in thirty seconds.",
+      "props": { "title": "DOCKER", "subtitle": "explained in 30 seconds", "icon": "Container" }
+    },
+    {
+      "type": "compare",
+      "narration": "A virtual machine runs an entire operating system for every single app. A container shares the host's, so it stays tiny.",
+      "props": {
+        "left": { "title": "VM", "icon": "Server", "tone": "heavy", "blocks": ["Hardware", "Hypervisor", "Guest OS", "App"] },
+        "right": { "title": "Container", "icon": "Container", "tone": "light", "blocks": ["Hardware", "Host OS", "Docker", "App"] }
+      }
+    },
+    {
+      "type": "layers",
+      "narration": "Each image is built in stacked layers: the runtime, your dependencies, and finally your code on top.",
+      "props": {
+        "title": "Image = Layers",
+        "layers": [
+          { "label": "Base OS", "icon": "Server" },
+          { "label": "Runtime", "icon": "Cog" },
+          { "label": "Dependencies", "icon": "Package" },
+          { "label": "Your App", "icon": "Box" }
+        ]
+      }
+    },
+    {
+      "type": "nodes",
+      "narration": "Then Kubernetes schedules and scales those containers across a whole fleet of machines, automatically.",
+      "props": {
+        "hub": { "label": "Control Plane", "icon": "Cog" },
+        "nodes": [
+          { "label": "Pod", "icon": "Box" },
+          { "label": "Pod", "icon": "Box" },
+          { "label": "Pod", "icon": "Box" }
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "The payoff: containers start in milliseconds, not minutes.",
+      "props": { "value": "~50ms", "label": "to start a container" }
+    },
+    {
+      "type": "outro",
+      "narration": "Follow for one tech concept, every single day.",
+      "props": { "cta": "Follow for more", "handle": "@yourhandle", "icon": "Plus" }
+    }
+  ]
+}

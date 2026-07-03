@@ -1,0 +1,100 @@
+{
+  "topic": "PATH TRACING",
+  "icon": "Camera",
+  "source_topic": "How path tracing renders photorealistic light, one ray at a time",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your graphics engine doesn't start from a light source. It starts from your eye — and works backwards through space.",
+      "props": {
+        "title": "PATH TRACING",
+        "subtitle": "Your engine traces light backwards",
+        "icon": "Camera"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "One ray fires from your camera, bounces off each surface it hits, then hunts for a light source. That entire zigzag path is one sample of reality.",
+      "props": {
+        "component": "PathRayDiagram",
+        "fallbackText": "One ray bounces from camera to light — that's one sample of reality."
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "But one sample is noise. So your GPU fires a thousand rays per pixel — each one a different random path through the same scene.",
+      "props": {
+        "elements": [
+          {"kind":"icon","x":14,"y":45,"name":"Camera","size":70,"accent":false},
+          {"kind":"edge","x1":14,"y1":45,"x2":56,"y2":22,"accent":false,"flow":false},
+          {"kind":"edge","x1":14,"y1":45,"x2":63,"y2":30,"accent":false,"flow":false},
+          {"kind":"edge","x1":14,"y1":45,"x2":68,"y2":40,"accent":true,"flow":true},
+          {"kind":"edge","x1":14,"y1":45,"x2":72,"y2":55,"accent":false,"flow":false},
+          {"kind":"edge","x1":14,"y1":45,"x2":66,"y2":62,"accent":false,"flow":false},
+          {"kind":"edge","x1":14,"y1":45,"x2":57,"y2":69,"accent":false,"flow":false},
+          {"kind":"circle","x":70,"y":43,"r":8,"accent":false},
+          {"kind":"label","x":44,"y":20,"text":"1,000 RAYS","size":"l","accent":true},
+          {"kind":"label","x":44,"y":28,"text":"per pixel","size":"m","accent":false}
+        ]
+      }
+    },
+    {
+      "type": "compare",
+      "narration": "Old games fake shadows and reflections with tricks. Path tracing computes them from actual light paths — no faking, pure physics.",
+      "props": {
+        "left": {
+          "title": "RASTER",
+          "icon": "Zap",
+          "tone": "heavy",
+          "blocks": ["1 ray / pixel", "Fakes shadows", "Real-time"]
+        },
+        "right": {
+          "title": "PATH TRACE",
+          "icon": "Camera",
+          "tone": "light",
+          "blocks": ["1,000s of rays", "Real physics", "Photorealistic"]
+        }
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "The more paths you sample, the more noise cancels out. Halve the noise? You need four times as many rays. That's the math.",
+      "props": {
+        "elements": [
+          {"kind":"label","x":28,"y":22,"text":"10 RAYS","size":"m","accent":false},
+          {"kind":"label","x":72,"y":22,"text":"1,000 RAYS","size":"m","accent":true},
+          {"kind":"circle","x":28,"y":47,"r":16,"accent":false},
+          {"kind":"circle","x":72,"y":47,"r":16,"accent":true},
+          {"kind":"circle","x":22,"y":40,"r":3,"accent":false},
+          {"kind":"circle","x":33,"y":38,"r":3,"accent":false},
+          {"kind":"circle","x":26,"y":53,"r":3,"accent":false},
+          {"kind":"circle","x":35,"y":56,"r":3,"accent":false},
+          {"kind":"circle","x":66,"y":40,"r":3,"accent":true},
+          {"kind":"circle","x":72,"y":40,"r":3,"accent":true},
+          {"kind":"circle","x":78,"y":40,"r":3,"accent":true},
+          {"kind":"circle","x":72,"y":54,"r":3,"accent":true},
+          {"kind":"label","x":50,"y":47,"text":"→","size":"l","accent":false}
+        ]
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "For decades this was too slow for real-time games. Then AI denoising arrived — cleaning up noisy frames instantly.",
+      "props": {
+        "text": "AI denoising made path tracing real-time.",
+        "highlight": "real-time"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "That's the physics of light, simulated inside your GPU. Follow for one concept a day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Most people think light starts at the source. Path tracing runs it backwards — your GPU fires rays FROM the camera, hunting light sources through thousands of random bounces.\n\nThe result? Real shadows. Real reflections. Real physics. No tricks.\n\nAnd in 2026, AI denoising finally made it fast enough to run in your games.\n\nSave this to explain it next time someone asks why RTX exists.",
+  "hashtags": ["pathtracing", "graphicsprogramming", "computergraphics", "gamedev", "nvidia", "techexplained", "coding"]
+}

@@ -1,0 +1,233 @@
+{
+  "topic": "CPU CACHE",
+  "icon": "Cpu",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your CPU almost never touches RAM. Between the processor and your memory sits a tiny invisible layer \u2014 and it's the real reason computers feel instant.",
+      "props": {
+        "title": "CPU CACHE",
+        "subtitle": "Why your chip barely touches RAM",
+        "icon": "Cpu"
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "Here's the problem: RAM takes 100 nanoseconds to deliver data \u2014 that's 500 idle clock cycles on a modern chip. For a CPU doing billions of operations per second, that's a disaster.",
+      "props": {
+        "text": "RAM makes your CPU idle for 500 clock cycles",
+        "highlight": "500 clock cycles"
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "So CPUs have tiered memory baked right onto the chip. L1 cache responds in 1 nanosecond, L2 in 5, L3 in 20. Only on a miss does the request travel all the way to RAM at 100 nanoseconds.",
+      "props": {
+        "elements": [
+          {
+            "kind": "label",
+            "x": 50.0,
+            "y": 22.0,
+            "text": "Distance = Latency",
+            "size": "m",
+            "accent": true
+          },
+          {
+            "kind": "node",
+            "x": 18.0,
+            "y": 48.0,
+            "w": 18.0,
+            "label": "CPU Core",
+            "icon": "Cpu",
+            "accent": true
+          },
+          {
+            "kind": "edge",
+            "x1": 27.0,
+            "y1": 48.0,
+            "x2": 31.0,
+            "y2": 48.0,
+            "accent": true,
+            "flow": true
+          },
+          {
+            "kind": "node",
+            "x": 37.0,
+            "y": 48.0,
+            "w": 14.0,
+            "label": "L1 Cache",
+            "icon": "Zap",
+            "accent": true
+          },
+          {
+            "kind": "label",
+            "x": 37.0,
+            "y": 64.0,
+            "text": "1 ns",
+            "size": "s",
+            "accent": false
+          },
+          {
+            "kind": "edge",
+            "x1": 44.0,
+            "y1": 48.0,
+            "x2": 48.0,
+            "y2": 48.0,
+            "accent": false,
+            "flow": true
+          },
+          {
+            "kind": "node",
+            "x": 54.0,
+            "y": 48.0,
+            "w": 14.0,
+            "label": "L2 Cache",
+            "icon": "MemoryStick",
+            "accent": false
+          },
+          {
+            "kind": "label",
+            "x": 54.0,
+            "y": 64.0,
+            "text": "5 ns",
+            "size": "s",
+            "accent": false
+          },
+          {
+            "kind": "edge",
+            "x1": 61.0,
+            "y1": 48.0,
+            "x2": 65.0,
+            "y2": 48.0,
+            "accent": false,
+            "flow": false
+          },
+          {
+            "kind": "node",
+            "x": 71.0,
+            "y": 48.0,
+            "w": 14.0,
+            "label": "L3 Cache",
+            "icon": "Database",
+            "accent": false
+          },
+          {
+            "kind": "label",
+            "x": 71.0,
+            "y": 64.0,
+            "text": "20 ns",
+            "size": "s",
+            "accent": false
+          },
+          {
+            "kind": "edge",
+            "x1": 78.0,
+            "y1": 48.0,
+            "x2": 81.0,
+            "y2": 48.0,
+            "accent": false,
+            "flow": false
+          },
+          {
+            "kind": "node",
+            "x": 86.0,
+            "y": 48.0,
+            "w": 14.0,
+            "label": "RAM",
+            "icon": "HardDrive",
+            "accent": false
+          },
+          {
+            "kind": "label",
+            "x": 86.0,
+            "y": 64.0,
+            "text": "100 ns",
+            "size": "s",
+            "accent": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "compare",
+      "narration": "A cache hit means the data was already waiting \u2014 instant delivery, CPU never slows. A cache miss means the processor stalls cold, burning hundreds of cycles waiting for RAM to respond.",
+      "props": {
+        "left": {
+          "title": "Cache Hit",
+          "icon": "Zap",
+          "tone": "heavy",
+          "blocks": [
+            "Data found in L1",
+            "Instant delivery",
+            "Zero stall cycles",
+            "CPU keeps flying"
+          ]
+        },
+        "right": {
+          "title": "Cache Miss",
+          "icon": "Clock",
+          "tone": "light",
+          "blocks": [
+            "Data not found",
+            "Fetch from RAM",
+            "500 cycles lost",
+            "CPU stalls cold"
+          ]
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "L1 cache is 100 times faster than RAM. The twist: the entire L1 is only 32 kilobytes \u2014 smaller than a single photo on your phone. Tiny, but it does the heavy lifting.",
+      "props": {
+        "value": "100\u00d7",
+        "label": "L1 cache speed vs RAM"
+      }
+    },
+    {
+      "type": "nodes",
+      "narration": "Modern CPUs also run a hardware prefetcher. It watches your code's memory patterns and loads data into cache before you even ask \u2014 on sequential loops, it eliminates nearly every miss.",
+      "props": {
+        "hub": {
+          "label": "Prefetcher",
+          "icon": "Brain"
+        },
+        "nodes": [
+          {
+            "label": "Watches Patterns",
+            "icon": "Eye"
+          },
+          {
+            "label": "Loads Ahead",
+            "icon": "ArrowRight"
+          },
+          {
+            "label": "Fills Cache",
+            "icon": "Zap"
+          },
+          {
+            "label": "Zero Stall",
+            "icon": "Timer"
+          }
+        ]
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "It all works because of locality \u2014 programs reuse the same small chunk of data over and over. Cache bets on that pattern, and wins roughly 95% of the time.",
+      "props": {
+        "text": "Programs reuse data \u2014 cache wins 95% of the time",
+        "highlight": "95%"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "That's CPU cache: invisible, the size of a thumbnail, and the real engine behind every fast computer. Follow for one concept like this every single day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@sciencetech.ai",
+        "icon": "Plus"
+      }
+    }
+  ]
+}

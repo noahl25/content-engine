@@ -1,0 +1,97 @@
+{
+  "topic": "ATTENTION",
+  "icon": "BrainCircuit",
+  "source_topic": "How a transformer 'pays attention' — the architecture behind ChatGPT",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "In 2017, eight researchers wrote a twelve-page paper that became the engine behind every major AI you use. Their idea: attention.",
+      "props": {
+        "title": "ATTENTION",
+        "subtitle": "how ChatGPT actually reads",
+        "icon": "BrainCircuit"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "Take the word 'bank.' River or vault? The model doesn't guess — it scores every surrounding word simultaneously. 'Money' pulls the highest weight. Ambiguity dissolved.",
+      "props": {
+        "component": "AttentionLines",
+        "fallbackText": "Each word scores every other word — the highest-weight words define the meaning"
+      }
+    },
+    {
+      "type": "compare",
+      "narration": "Before this, models read word by word — early context faded. Attention eliminates that: every word queries every other word simultaneously.",
+      "props": {
+        "left": {
+          "title": "RNN",
+          "icon": "ArrowRight",
+          "tone": "heavy",
+          "blocks": ["word by word", "fading memory", "slow training"]
+        },
+        "right": {
+          "title": "ATTENTION",
+          "icon": "Network",
+          "tone": "light",
+          "blocks": ["all tokens at once", "full context", "massively parallel"]
+        }
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "Each word fires a Query. Others answer with Keys — bids for relevance. Top matches return their Values, blended into one context-rich output vector.",
+      "props": {
+        "elements": [
+          {"kind":"label","x":18,"y":26,"text":"QUERY","size":"s","accent":true},
+          {"kind":"node","x":18,"y":47,"w":22,"label":"bank","icon":"Search","accent":true},
+          {"kind":"label","x":50,"y":26,"text":"× KEYS","size":"s","accent":false},
+          {"kind":"node","x":50,"y":40,"w":20,"label":"money","icon":"Landmark","accent":false},
+          {"kind":"node","x":50,"y":62,"w":20,"label":"river","icon":"Waves","accent":false},
+          {"kind":"label","x":82,"y":26,"text":"= VALUE","size":"s","accent":true},
+          {"kind":"node","x":82,"y":40,"w":20,"label":"context","icon":"Lightbulb","accent":true},
+          {"kind":"node","x":82,"y":62,"w":18,"label":"ignore","icon":"X","accent":false},
+          {"kind":"edge","x1":18,"y1":47,"x2":50,"y2":40,"accent":true,"flow":true},
+          {"kind":"edge","x1":18,"y1":47,"x2":50,"y2":62,"accent":false,"flow":false},
+          {"kind":"edge","x1":50,"y1":40,"x2":82,"y2":40,"accent":true,"flow":true},
+          {"kind":"edge","x1":50,"y1":62,"x2":82,"y2":62,"accent":false,"flow":false}
+        ]
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "This runs across many parallel heads simultaneously. One tracks grammar, another meaning, another position. All see the full sentence but learn completely different patterns.",
+      "props": {
+        "elements": [
+          {"kind":"label","x":50,"y":26,"text":"parallel heads","size":"s","accent":false},
+          {"kind":"node","x":20,"y":40,"w":22,"label":"grammar","icon":"AlignLeft","accent":false},
+          {"kind":"node","x":50,"y":40,"w":22,"label":"meaning","icon":"Brain","accent":true},
+          {"kind":"node","x":80,"y":40,"w":22,"label":"position","icon":"MapPin","accent":false},
+          {"kind":"edge","x1":20,"y1":40,"x2":50,"y2":62,"accent":false,"flow":false},
+          {"kind":"edge","x1":50,"y1":40,"x2":50,"y2":62,"accent":true,"flow":true},
+          {"kind":"edge","x1":80,"y1":40,"x2":50,"y2":62,"accent":false,"flow":false},
+          {"kind":"node","x":50,"y":62,"w":24,"label":"combined","icon":"Combine","accent":true}
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "GPT-3 runs ninety-six heads simultaneously, per token, across twelve thousand dimensions. That's what paying attention looks like at scale.",
+      "props": {
+        "value": "96 heads",
+        "label": "running in parallel per token — 12,288 dimensions each"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "One of the paper's eight authors just joined OpenAI to design what comes after this. Follow @yourhandle for one concept every day.",
+      "props": {
+        "cta": "FOLLOW FOR MORE",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Eight researchers wrote a paper that became the brain of every AI you use. This is the idea inside it.\n\nEvery word in your prompt simultaneously asks every other word: \"do you matter to understanding me?\"\n\n'Bank' next to 'money'? Financial. 'Bank' next to 'river'? Geography. One equation resolves it instantly.\n\n🧠 One of those eight researchers just joined OpenAI to build what comes after attention.\n\nSave this for the next time someone asks you how ChatGPT actually works.",
+  "hashtags": ["transformers", "deeplearning", "machinelearning", "artificialintelligence", "llm", "chatgpt", "aiexplained"]
+}

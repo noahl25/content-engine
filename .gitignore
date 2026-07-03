@@ -1,0 +1,46 @@
+# ── dependencies / build artifacts ────────────────────────────────────────────
+.venv/
+node_modules/
+remotion/node_modules/
+.impeccable/
+__pycache__/
+*.pyc
+
+# ── your local config (copy config.example.json -> config.json and edit) ───────
+/config.json
+
+# ── secrets (should live OUTSIDE the repo; these patterns are a safety net) ────
+*cookies*.txt
+*_key.txt
+*token*.txt
+.env
+
+# ── rendered videos + render logs/markers ─────────────────────────────────────
+/output/
+
+# ── per-run generated render inputs (regenerated every build) ─────────────────
+remotion/public/upload.mp4
+remotion/public/narration.mp3
+remotion/public/assets/logos/
+remotion/public/assets/img/
+assets_cache/
+tts/voices/
+
+# ── personal runtime state + analytics (per-account, not shareable) ───────────
+memory/*.csv
+memory/*.log
+memory/posted.md
+memory/queue.json
+memory/telegram_offset.txt
+memory/paused.flag
+memory/skip_dates.txt
+memory/LEARNINGS.md
+memory/TRENDS.md
+
+# ── third-party reference screenshots (not ours to redistribute) ──────────────
+references/*.png
+
+# NOTE intentionally COMMITTED so a fresh clone compiles + has examples:
+#   config.example.json, remotion/src/story-props.json (default props),
+#   remotion/src/custom/*.tsx + registry.tsx (example custom scenes),
+#   remotion/src/overlay/Overlay.tsx (stub), storyboards/*.json (example storyboards).

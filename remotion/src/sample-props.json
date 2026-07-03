@@ -1,0 +1,263 @@
+{
+  "topic": "BLACK HOLES",
+  "hook": "Not even light escapes.",
+  "accentIcon": "Orbit",
+  "audioDurationSec": 15.418,
+  "words": [
+    {
+      "word": "Not",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "word": "even",
+      "start": 0.12,
+      "end": 0.38
+    },
+    {
+      "word": "light",
+      "start": 0.38,
+      "end": 0.56
+    },
+    {
+      "word": "can",
+      "start": 0.56,
+      "end": 0.74
+    },
+    {
+      "word": "escape",
+      "start": 0.74,
+      "end": 1.06
+    },
+    {
+      "word": "this.",
+      "start": 1.06,
+      "end": 1.32
+    },
+    {
+      "word": "A",
+      "start": 1.58,
+      "end": 1.64
+    },
+    {
+      "word": "black",
+      "start": 1.64,
+      "end": 1.9
+    },
+    {
+      "word": "hole",
+      "start": 1.9,
+      "end": 2.2
+    },
+    {
+      "word": "is",
+      "start": 2.2,
+      "end": 2.42
+    },
+    {
+      "word": "a",
+      "start": 2.42,
+      "end": 2.52
+    },
+    {
+      "word": "region",
+      "start": 2.52,
+      "end": 2.8
+    },
+    {
+      "word": "where",
+      "start": 2.8,
+      "end": 3.04
+    },
+    {
+      "word": "gravity",
+      "start": 3.04,
+      "end": 3.48
+    },
+    {
+      "word": "is",
+      "start": 3.48,
+      "end": 3.74
+    },
+    {
+      "word": "so",
+      "start": 3.74,
+      "end": 3.96
+    },
+    {
+      "word": "strong",
+      "start": 3.96,
+      "end": 4.38
+    },
+    {
+      "word": "that",
+      "start": 4.38,
+      "end": 4.56
+    },
+    {
+      "word": "nothing",
+      "start": 4.56,
+      "end": 4.88
+    },
+    {
+      "word": "gets",
+      "start": 4.88,
+      "end": 5.12
+    },
+    {
+      "word": "out.",
+      "start": 5.12,
+      "end": 5.5
+    },
+    {
+      "word": "At",
+      "start": 5.66,
+      "end": 5.74
+    },
+    {
+      "word": "its",
+      "start": 5.74,
+      "end": 5.92
+    },
+    {
+      "word": "center",
+      "start": 5.92,
+      "end": 6.22
+    },
+    {
+      "word": "hides",
+      "start": 6.22,
+      "end": 6.58
+    },
+    {
+      "word": "a",
+      "start": 6.58,
+      "end": 6.74
+    },
+    {
+      "word": "singularity",
+      "start": 6.74,
+      "end": 7.46
+    },
+    {
+      "word": "where",
+      "start": 7.46,
+      "end": 7.72
+    },
+    {
+      "word": "space",
+      "start": 7.72,
+      "end": 8.04
+    },
+    {
+      "word": "and",
+      "start": 8.04,
+      "end": 8.38
+    },
+    {
+      "word": "time",
+      "start": 8.38,
+      "end": 8.68
+    },
+    {
+      "word": "break",
+      "start": 8.68,
+      "end": 8.94
+    },
+    {
+      "word": "down.",
+      "start": 8.94,
+      "end": 9.24
+    },
+    {
+      "word": "Falling,",
+      "start": 9.44,
+      "end": 9.9
+    },
+    {
+      "word": "and",
+      "start": 10.06,
+      "end": 10.22
+    },
+    {
+      "word": "from",
+      "start": 10.22,
+      "end": 10.38
+    },
+    {
+      "word": "the",
+      "start": 10.38,
+      "end": 10.52
+    },
+    {
+      "word": "outside,",
+      "start": 10.52,
+      "end": 11.04
+    },
+    {
+      "word": "time",
+      "start": 11.26,
+      "end": 11.44
+    },
+    {
+      "word": "itself",
+      "start": 11.44,
+      "end": 11.8
+    },
+    {
+      "word": "appears",
+      "start": 11.8,
+      "end": 12.2
+    },
+    {
+      "word": "to",
+      "start": 12.2,
+      "end": 12.44
+    },
+    {
+      "word": "freeze.",
+      "start": 12.44,
+      "end": 12.76
+    },
+    {
+      "word": "The",
+      "start": 13.0,
+      "end": 13.06
+    },
+    {
+      "word": "universe",
+      "start": 13.06,
+      "end": 13.46
+    },
+    {
+      "word": "is",
+      "start": 13.46,
+      "end": 13.76
+    },
+    {
+      "word": "far",
+      "start": 13.76,
+      "end": 14.04
+    },
+    {
+      "word": "stranger",
+      "start": 14.04,
+      "end": 14.58
+    },
+    {
+      "word": "than",
+      "start": 14.58,
+      "end": 14.78
+    },
+    {
+      "word": "it",
+      "start": 14.78,
+      "end": 14.94
+    },
+    {
+      "word": "looks.",
+      "start": 14.94,
+      "end": 15.12
+    }
+  ]
+}

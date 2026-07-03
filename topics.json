@@ -1,0 +1,30 @@
+{
+  "pending": [
+    "The Chinese Room: can an AI truly understand, or just fake it?",
+    "Why neural networks are 'black boxes' \u2014 and what interpretability is finding inside",
+    "The alignment problem: why a superintelligent AI might not want what we want",
+    "Embeddings: how AI turns meaning into geometry you can do math on",
+    "Can a machine be conscious? AI and the hard problem of mind",
+    "G\u00f6del, Turing, and the hard limit on what any computer can ever compute",
+    "How GPS works \u2014 and why it would fail without Einstein's relativity",
+    "How a transistor switches \u2014 the atom-scale switch behind all of computing",
+    "Why 0.1 + 0.2 \u2260 0.3: how computers really store numbers",
+    "Homomorphic encryption: computing on data you're never allowed to read",
+    "How JPEG throws away 90% of an image and your eyes don't notice",
+    "How Shazam identifies a song in seconds from a noisy clip",
+    "The bitter lesson: why raw scale keeps beating clever algorithms in AI",
+    "What entropy really is \u2014 the law that gives time a direction",
+    "How error-correcting codes rebuild data that arrived broken",
+    "Why an LLM 'hallucinates' \u2014 and why it's a feature of how it works, not a bug",
+    "How a CPU branch predictor gambles on the future of your code",
+    "How ray-traced reflections make CGI indistinguishable from reality"
+  ],
+  "done": [
+    "How DNS works (turning a domain name into an IP address)",
+    "How a GPU actually works \u2014 and why it crushes a CPU at graphics and AI",
+    "How path tracing renders photorealistic light, one ray at a time",
+    "How a transformer 'pays attention' \u2014 the architecture behind ChatGPT",
+    "How diffusion models turn pure noise into images",
+    "How quantum computers use superposition to compute differently"
+  ]
+}

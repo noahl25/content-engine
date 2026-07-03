@@ -1,0 +1,111 @@
+{
+  "topic": "GPU POWER",
+  "icon": "Cpu",
+  "source_topic": "How a GPU actually works — and why it crushes a CPU at graphics and AI",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your CPU has 8 cores. Your GPU has sixteen thousand, three hundred and eighty-four. That's not a typo.",
+      "props": {
+        "title": "GPU POWER",
+        "subtitle": "16,384 cores vs 8. Here's why that matters.",
+        "icon": "Cpu"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "It's not the count. CPU cores are complex and versatile. GPU cores are simple, identical, moving in lockstep.",
+      "props": {
+        "component": "GpuVsCpu",
+        "fallbackText": "CPU has 8 complex cores. GPU has 16,384 simple identical ones."
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "CPUs handle anything — branching, logic, decisions. GPUs run one instruction across thousands of cores simultaneously. That architecture is called SIMD.",
+      "props": {
+        "elements": [
+          {"kind": "label", "x": 50, "y": 18, "text": "SIMD", "size": "l"},
+          {"kind": "node", "x": 50, "y": 38, "w": 28, "label": "COMMAND", "accent": true},
+          {"kind": "edge", "x1": 50, "y1": 47, "x2": 20, "y2": 60, "flow": true},
+          {"kind": "edge", "x1": 50, "y1": 47, "x2": 50, "y2": 60, "flow": true},
+          {"kind": "edge", "x1": 50, "y1": 47, "x2": 80, "y2": 60, "flow": true},
+          {"kind": "node", "x": 20, "y": 68, "w": 22, "label": "CORE"},
+          {"kind": "node", "x": 50, "y": 68, "w": 22, "label": "CORE"},
+          {"kind": "node", "x": 80, "y": 68, "w": 22, "label": "CORE"},
+          {"kind": "label", "x": 50, "y": 82, "text": "× 16,384 TOTAL", "size": "s"}
+        ]
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "Neural networks are just chains of matrix multiplication. Billions of independent operations per layer, each requiring nothing from the others.",
+      "props": {
+        "elements": [
+          {"kind": "label", "x": 50, "y": 18, "text": "NEURAL NET", "size": "l"},
+          {"kind": "node", "x": 18, "y": 38, "w": 18, "label": "IN"},
+          {"kind": "node", "x": 18, "y": 56, "w": 18, "label": "IN"},
+          {"kind": "node", "x": 18, "y": 74, "w": 18, "label": "IN"},
+          {"kind": "node", "x": 50, "y": 38, "w": 22, "label": "HIDDEN"},
+          {"kind": "node", "x": 50, "y": 56, "w": 22, "label": "HIDDEN"},
+          {"kind": "node", "x": 50, "y": 74, "w": 22, "label": "HIDDEN"},
+          {"kind": "node", "x": 82, "y": 47, "w": 18, "label": "OUT", "accent": true},
+          {"kind": "node", "x": 82, "y": 65, "w": 18, "label": "OUT", "accent": true},
+          {"kind": "edge", "x1": 27, "y1": 38, "x2": 39, "y2": 38, "flow": true},
+          {"kind": "edge", "x1": 27, "y1": 56, "x2": 39, "y2": 56, "flow": true},
+          {"kind": "edge", "x1": 27, "y1": 74, "x2": 39, "y2": 74, "flow": true},
+          {"kind": "edge", "x1": 61, "y1": 47, "x2": 73, "y2": 47, "flow": true}
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "narration": "GPUs run matrix math ninety-three times faster than CPUs. Not smarter — just built for exactly this kind of work.",
+      "props": {
+        "value": "93×",
+        "label": "faster than CPU on matrix multiplication"
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "ChatGPT, Stable Diffusion, Sora — all trained on GPUs running billions of matrix multiplications in parallel, every forward pass.",
+      "props": {
+        "elements": [
+          {"kind": "label", "x": 50, "y": 18, "text": "AI TRAINING", "size": "l"},
+          {"kind": "node", "x": 50, "y": 38, "w": 18, "label": "GPU"},
+          {"kind": "node", "x": 72, "y": 48, "w": 18, "label": "GPU"},
+          {"kind": "node", "x": 72, "y": 71, "w": 18, "label": "GPU"},
+          {"kind": "node", "x": 50, "y": 82, "w": 18, "label": "GPU"},
+          {"kind": "node", "x": 28, "y": 71, "w": 18, "label": "GPU"},
+          {"kind": "node", "x": 28, "y": 48, "w": 18, "label": "GPU", "accent": true},
+          {"kind": "edge", "x1": 50, "y1": 38, "x2": 72, "y2": 48},
+          {"kind": "edge", "x1": 72, "y1": 48, "x2": 72, "y2": 71},
+          {"kind": "edge", "x1": 72, "y1": 71, "x2": 50, "y2": 82},
+          {"kind": "edge", "x1": 50, "y1": 82, "x2": 28, "y2": 71},
+          {"kind": "edge", "x1": 28, "y1": 71, "x2": 28, "y2": 48},
+          {"kind": "edge", "x1": 28, "y1": 48, "x2": 50, "y2": 38},
+          {"kind": "icon", "x": 50, "y": 60, "name": "Zap", "size": 44, "accent": true}
+        ]
+      }
+    },
+    {
+      "type": "statement",
+      "narration": "NVIDIA just cut AI training cost by four times. The GPU isn't a chip anymore — it's the engine of intelligence.",
+      "props": {
+        "text": "NVIDIA just cut AI training cost by 4×. The GPU isn't a graphics card anymore.",
+        "highlight": "4×"
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "One GPU breakthrough made the entire AI revolution possible. Follow for one concept a day.",
+      "props": {
+        "cta": "HOW AI THINKS",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "Your GPU doesn't just run games. It's why every AI model exists — and there's a simple architectural reason why.\n\nGPUs run one instruction across 16,384 cores at once (SIMD). Neural networks are pure matrix math — perfectly parallel by design.\n\nResult: 93× faster than a CPU. Every AI model you've used was trained on thousands of these. 💡\n\nNVIDIA's Vera Rubin just made it 4× cheaper to train them.\n\nSave this for the next time someone asks why AI needs GPUs.\n\n[GPU, AI, ComputerScience, DeepLearning, NVIDIA]",
+  "hashtags": ["gpucomputing", "computerarchitecture", "deeplearning", "machinelearning", "techtok", "nvidia", "aiexplained"]
+}

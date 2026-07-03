@@ -1,0 +1,89 @@
+{
+  "topic": "CHINESE ROOM",
+  "icon": "Brain",
+  "source_topic": "The Chinese Room: can an AI truly understand, or just fake it?",
+  "assets": [
+    {"type": "logo", "slug": "openai"},
+    {"type": "logo", "slug": "anthropic"}
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "The 45-year-old trap AI can't escape.",
+      "props": {
+        "title": "CHINESE ROOM",
+        "subtitle": "can AI truly understand?",
+        "icon": "Brain"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "You just had a conversation with AI — it answered perfectly. But there's a 45-year-old question it still can't escape: does it actually understand a single word?",
+      "props": {
+        "component": "ChatUI",
+        "fallbackText": "A chat with AI that answers every question perfectly — but does it understand?"
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "In 1980, John Searle imagined a room. Inside, a person uses a rulebook to answer Chinese questions perfectly — without knowing a single word of Chinese.",
+      "props": {
+        "component": "ChineseRoom",
+        "fallbackText": "A person inside a room translates Chinese using rules, with zero understanding of the language."
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "Here's the key: following rules is not the same as understanding. Syntax — the pattern — is not semantics — the meaning. Computers ace syntax. But semantics? That's the gap.",
+      "props": {
+        "elements": [
+          {"kind": "label", "x": 24, "y": 22, "text": "SYNTAX", "size": "m", "accent": false},
+          {"kind": "node", "x": 24, "y": 37, "w": 24, "label": "PATTERN", "icon": "Binary", "accent": false},
+          {"kind": "label", "x": 50, "y": 37, "text": "≠", "size": "xl", "accent": true},
+          {"kind": "label", "x": 74, "y": 22, "text": "SEMANTICS", "size": "m", "accent": true},
+          {"kind": "node", "x": 74, "y": 37, "w": 24, "label": "MEANING", "icon": "Brain", "accent": true},
+          {"kind": "edge", "x1": 24, "y1": 45, "x2": 24, "y2": 52},
+          {"kind": "edge", "x1": 74, "y1": 45, "x2": 74, "y2": 52},
+          {"kind": "node", "x": 24, "y": 60, "w": 24, "label": "COMPUTED", "icon": "Check", "accent": false},
+          {"kind": "node", "x": 74, "y": 60, "w": 24, "label": "UNKNOWN?", "icon": "HelpCircle", "accent": true}
+        ]
+      }
+    },
+    {
+      "type": "canvas",
+      "narration": "The strongest counter: maybe the SYSTEM understands, even if the parts don't. Your neurons don't understand English — but you do. Could AI be the same?",
+      "props": {
+        "elements": [
+          {"kind": "label", "x": 23, "y": 23, "text": "BIOLOGY", "size": "s", "accent": false},
+          {"kind": "node", "x": 23, "y": 37, "w": 23, "label": "NEURON", "icon": "Activity", "accent": false},
+          {"kind": "edge", "x1": 23, "y1": 45, "x2": 23, "y2": 54, "accent": false},
+          {"kind": "node", "x": 23, "y": 62, "w": 23, "label": "YOU", "icon": "User", "accent": false},
+          {"kind": "label", "x": 50, "y": 50, "text": "=?", "size": "xl", "accent": true},
+          {"kind": "label", "x": 77, "y": 23, "text": "AI", "size": "s", "accent": false},
+          {"kind": "node", "x": 77, "y": 37, "w": 23, "label": "RULES", "icon": "BookOpen", "accent": false},
+          {"kind": "edge", "x1": 77, "y1": 45, "x2": 77, "y2": 54, "accent": false},
+          {"kind": "node", "x": 77, "y": 62, "w": 23, "label": "AI", "icon": "Cpu", "accent": true}
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "narration": "Now researchers are literally looking inside AI. In 2025, Anthropic traced actual reasoning circuits inside Claude — structures that encode meaning, not just shuffle symbols.",
+      "props": {
+        "component": "InterpretabilityDash",
+        "fallbackText": "Anthropic's circuit-tracing research reveals actual reasoning structures inside Claude."
+      }
+    },
+    {
+      "type": "outro",
+      "narration": "The Chinese Room has no clean answer — yet. But we're cracking it open, and what's inside might redefine mind itself. Follow for one concept a day.",
+      "props": {
+        "cta": "FOLLOW",
+        "handle": "@yourhandle",
+        "icon": "Plus"
+      }
+    }
+  ],
+  "caption": "An AI just answered your question perfectly. But a 45-year-old thought experiment says it doesn't understand a single word it said.\n\nIn 1980, philosopher John Searle described a room where a person translates Chinese using lookup tables — perfect output, zero comprehension. The Chinese Room.\n\nThen in 2025, Anthropic traced actual reasoning circuits inside Claude. Not symbol shuffling — interpretable structures encoding meaning. MIT named this its 2026 Breakthrough Technology.\n\nDoes that solve Searle's challenge? Save this for the next time someone says AI 'just predicts tokens.'",
+  "hashtags": ["artificialintelligence", "philosophy", "machinelearning", "aiconscious", "deeplearning", "techtok", "aiexplained", "philosophyoftechnology"]
+}
